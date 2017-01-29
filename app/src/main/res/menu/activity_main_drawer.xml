@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="Prática">
+            <menu>
+                <item android:id="@+id/nav_sus10" android:icon="@drawable/lapis_icon"
+                    android:title="10 Questões" />
+                <item android:id="@+id/nav_sus20" android:icon="@drawable/cadeado"
+                    android:title="20 Questões" />
+                <item android:id="@+id/nav_sus30" android:icon="@drawable/cadeado"
+                    android:title="30 Questões" />
+                <item android:id="@+id/nav_upgrade" android:icon="@drawable/plainicon"
+                    android:title="Versão Completa" />
+            </menu>
+        </item>
+        <item android:title="Teoria">
+            <menu>
+                <item android:id="@+id/nav_lei8080" android:icon="@drawable/cadeado"
+                    android:title="Lei 8080" />
+                <item android:id="@+id/nav_cf194200" android:icon="@drawable/cadeado"
+                    android:title="Art. 194-200 da CF" />
+                <item android:id="@+id/nav_introsus" android:icon="@android:drawable/ic_menu_send"
+                    android:title="Introdução ao SUS" />
+                <item android:id="@+id/nav_setpriv" android:icon="@drawable/cadeado"
+                    android:title="Setor Privado" />
+                <item android:id="@+id/nav_pridou" android:icon="@drawable/cadeado"
+                    android:title="Princípios Doutrinários" />
+                <item android:id="@+id/nav_priorg" android:icon="@drawable/cadeado"
+                    android:title="Princípios Organizativos" />
+                <item android:id="@+id/nav_promo" android:icon="@drawable/cadeado"
+                    android:title="Promoção" />
+                <item android:id="@+id/nav_prot" android:icon="@drawable/cadeado"
+                    android:title="Proteção" />
+                <item android:id="@+id/nav_rec" android:icon="@drawable/cadeado"
+                    android:title="Recuperação" />
+                <item android:id="@+id/nav_hist" android:icon="@drawable/cadeado"
+                    android:title="História" />
+                <item android:id="@+id/nav_crtscl" android:icon="@drawable/cadeado"
+                    android:title="Controle Social" />
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+    </group>
+    <item android:title="Contato">
+        <menu>
+            <item android:id="@+id/nav_face" android:icon="@drawable/face"
+                android:title="Página no Facebook" />
+            <item android:id="@+id/nav_email" android:icon="@drawable/email"
+                android:title="Email" />
+            <item android:id="@+id/nav_site" android:icon="@drawable/internet"
+                android:title="Site" />
+        </menu>
+    </item>
+</menu>

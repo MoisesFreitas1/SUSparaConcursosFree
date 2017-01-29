@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Introdução ao SUS"
+            android:id="@+id/textView7"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Em 1988, por ocasião da promulgação da Constituição da República Federativa do Brasil, foi instituído no país o Sistema Único de Saúde (SUS), que passou a oferecer a todo cidadão brasileiro acesso integral, universal e gratuito a serviços de saúde. Considerado um dos maiores e melhores sistemas de saúde públicos do mundo, o SUS beneficia cerca de 180 milhões de brasileiros e realiza por ano cerca de 2,8 bilhões de atendimentos, desde procedimentos ambulatoriais simples a atendimentos de alta complexidade, como transplantes de órgãos. Os desafios, no entanto, são muitos, cabendo ao Governo e à sociedade civil a atenção para estratégias de solução de problemas diversos, identificados, por exemplo, na gestão do sistema e também no subfinancimento da saúde (falta de recursos).\nParalelamente à realização de consultas, exames e internações, o SUS também promove campanhas de vacinação e ações de prevenção de vigilância sanitária, como fiscalização de alimentos e registro de medicamentos.\nAlém da democratização da saúde (antes acessível apenas para alguns grupos da sociedade), a implementação do SUS também representou uma mudança do conceito sobre o qual a saúde era interpretada no país. Até então, a saúde representava apenas um quadro de “não-doença”, fazendo com que os esforços e políticas implementadas se reduzissem ao tratamento de ocorrências de enfermidades. Com o SUS, a saúde passou a ser promovida e a prevenção dos agravos a fazer parte do planejamento das políticas públicas.\n(Fonte: Fiocruz)"
+            android:id="@+id/textView8"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</ScrollView>
